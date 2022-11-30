@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  color: rgba(6, 30, 135, 0.511);
+  background-color: black;
+}
+header{
+    padding:100px;
+}
