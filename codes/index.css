@@ -2,10 +2,18 @@
   margin: 0px;
   padding: 0px;
   font-family: sans-serif;
-  text-align: center;
   color: rgb(8, 44, 204);
   background-color: black;
 }
 header{
     padding:100px;
+    text-align: center;
+}
+main{
+  padding: 100px; 
+}
+footer{
+  display: flex;
+  padding: 100px;
+  justify-content: space-around;
 }
