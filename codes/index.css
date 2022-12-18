@@ -5,15 +5,24 @@
   color: rgb(8, 44, 204);
   background-color: black;
 }
-header{
-    padding:100px;
-    text-align: center;
-}
-main{
-  padding: 100px; 
-}
-footer{
-  display: flex;
+header {
   padding: 100px;
+  text-align: center;
+}
+main {
+  padding: 100px;
+}
+footer {
+  display: flex;
   justify-content: space-around;
+}
+@media (max-width: 600px) {
+  main {
+    padding: 0;
+  }
+  footer>img ,
+  footer>div>img{
+    height: 150px;
+    width: 250px; 
+  }
 }
